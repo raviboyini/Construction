@@ -1,0 +1,95 @@
+<style>
+body{
+background: url('https://www.deltaconstructors.net/images/slideshow/slide-1.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+#brand{
+text-align: center;
+}
+.contents{
+text-align: center;
+background: green;
+color: white;
+}
+#targetelement{
+text-align: center;
+background: red;}
+</style>
+<html>
+  <body leftmargin=200>
+    <h1 id="brand">Ravi Constructions</h1>
+      <h2>Major projects:</h2>
+      <ul id="projects">
+        <li>R B homes</li>
+        <li>R B malls</li>
+        <li>R B Towers</li>
+      </ul>
+      <table border="2" class="contents" align="center">
+        <tr> 
+          <th colspan="2">Hierarchy</th>
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+        </tr>
+        <tr>
+          <td>Ravi</td>
+          <td>CEO</td>
+        </tr>
+        <tr>
+          <td>Ravi</td>
+          <td>Senior manager</td>
+        </tr>
+        <tr>
+          <td>Ravi</td>
+          <td>Manager</td>
+        </tr>
+        <tr>
+          <td>Ravi</td>
+          <td>Senior Engineer</td>
+        </tr>
+      </table>
+      <br>
+      <p style="text-align:center;"><b>For any queries,</b></p>
+      <form>
+        <table border="1" class="contents" align="center">
+          <tr>
+            <th>Name:</th>
+            <th><input type="text" \></th>
+          </tr>
+          <tr>
+            <th>Designation:</th>
+            <td><input type="radio" name="designation">Student</input><input type="radio" name="designation">Working Individual</input>
+            </td>
+          </tr>
+          <tr>
+            <th>Interested in working with us?</th>
+            <td><input type="checkbox" name="Intrest">Yes</input><input type="checkbox" name="Intrest">No</input>
+            </td>
+          </tr>
+          <tr>
+            <th>Queries:</th>
+            <th><input type="text" \></th>
+          </tr>
+        </table>
+        <p style="text-align: center;"><input type="submit"></p>
+      </form>
+      <br>
+      <i>To contact us</i>
+      <a href="https://bit.ly/owm-weather" target="_blank">click here</a>
+	
+	<hr>
+	<br>
+	<h3 style="text-align: center;">Have a good day</h3>
+<div style="text-align: center;"><button onclick="myFunction()">SURPRISE</button></div>
+<p id="targetElement"></p>
+
+<script>
+  function myFunction(){
+    document.getElementById('targetElement').innerHTML=new Date();
+  }
+</script>
+</body>
+</html>
